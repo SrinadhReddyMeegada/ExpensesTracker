@@ -1,6 +1,7 @@
+import "./Header.css";
+
 export default function Header({ image }) {
   const reactDescriptions = ["Fundamental", "Crucial", "Core"];
-
   function genRandomInt(max) {
     return Math.floor(Math.random() * (max + 1));
   }
